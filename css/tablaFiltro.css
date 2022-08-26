@@ -1,0 +1,28 @@
+body{
+    width: 85%;
+    height: 95vh;
+}
+
+.tabla_filtro{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.tabla_filtro th, .tabla_filtro td{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 1%;
+    white-space: nowrap;
+}
+.contenido_abajo {
+    overflow-x: auto;
+}
+
+.tabla_filtro th{
+    border-bottom: solid 1px black;
+    box-sizing: border-box;   
+}
+
+
